@@ -1,0 +1,22 @@
+{
+  "name": "wiggletools",
+  "version": "1.0.0",
+  "description": "wiggletools api wrapper",
+  "main": "index.js",
+  "author": "AdamJRPond <adampondlondon@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel-node test/index.js"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint": "^4.19.0",
+    "nodemon": "^1.17.2"
+  }
+}
