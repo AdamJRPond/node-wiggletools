@@ -2,7 +2,7 @@ import { run, compose, scale, file } from '../src'
 
 const program = compose(
   scale(1.5),
-  file('../../NGS\\ Test\\ Files/BigWigTester.bigWig'),
+  file('../test-files/BigWigTester.bigWig'),
 )
 
 run(program)
